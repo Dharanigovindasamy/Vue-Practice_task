@@ -46,7 +46,7 @@
 import { ref, onMounted } from "vue";
 import { useUserStore } from "../store/userStore";
 import { usePostStore } from "../store/postStore";
-import UserDetails from "../components/UserDetails.vue";
+// import UserDetails from "../components/UserDetails.vue";
 
 const userStore = useUserStore();
 const postStore = usePostStore();
