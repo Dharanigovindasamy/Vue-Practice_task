@@ -9,7 +9,7 @@ export const useUserStore = defineStore("user", {
   actions: {
     async loadUsers() {
       this.users = await fetchUsers();
-      console.log("Users loaded:", this.users);
+      console.log("Users loaded:22", this.users);
     },
   },
 });

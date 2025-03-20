@@ -16,7 +16,9 @@
       <tbody>
         <tr v-for="user in userStore.users" :key="user.id">
           <td>{{ user.id }}</td>
-          <td>{{ user.name }}</td>
+         <!-- <router-link to="/userDetails">{{user.name}} </router-link> -->
+         
+          <!-- <td>{{ user.name }}</td> -->
           <td>{{ user.email }}</td>
           <td>{{ user.username }}</td>
           <td>{{ user.address.street }}, {{ user.address.city }}</td>
@@ -32,12 +34,12 @@
 <script setup>
 import { onMounted } from "vue";
 import { useUserStore } from "../store/userStore";
-
+// import userDetails from "./userDetails.vue";
 const userStore = useUserStore();
 
 onMounted(async () => {
   console.log("Mounted called");
-  await userStore.loadUsers(); // ✅ Ensure data is loaded before usage
+  await userStore.loadUsers(); 
 });
 
 function userFetch() {

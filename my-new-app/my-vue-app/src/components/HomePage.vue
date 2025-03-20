@@ -1,7 +1,7 @@
 <template>
-  <div class="page">
-    <h1>Home Page</h1>
-    <p>Welcome to the Home Page.</p>
+  <div>
+    <h1>Welcome</h1>
+    <p>This is the homepage</p>
   </div>
 </template>
 
