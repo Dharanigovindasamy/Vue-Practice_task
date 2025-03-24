@@ -4,8 +4,7 @@
     <input
       v-model="searchQuery"
       placeholder="Search by name or username"
-      @input="handleSearch"
-    />
+      @input="handleSearch"/>
 
     <ul>
       <li

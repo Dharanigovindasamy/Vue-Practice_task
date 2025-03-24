@@ -1,10 +1,3 @@
-<script setup>
-import { ref } from "vue";
-import { RouterView, RouterLink} from "vue-router";
-
-const isMenuOpen = ref(false);
-</script>
-
 <template>
   <div class="app">
     <nav class="navbar">
@@ -27,6 +20,14 @@ const isMenuOpen = ref(false);
   </div>
 </template>
 
+<script setup>
+import { ref } from "vue";
+import { RouterView, RouterLink} from "vue-router";
+
+const isMenuOpen = ref(false);
+
+
+</script>
 <style scoped>
 .app {
   font-family: Arial, sans-serif;
