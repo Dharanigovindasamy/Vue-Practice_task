@@ -3,12 +3,13 @@
     <h3 class="task-list">Task List</h3>
 
     <div class="task-progress">
-      <b-button variant="primary" class="addTask"> Add Task </b-button>
+      <b-button variant="primary" class="addTask" @click="handleAddTask"> Add Task </b-button>
       <b-button variant="primary" class="deleteTask"> Delete Task </b-button>
     </div>
 
     <div class="container mt-4">
       <div class="ag-theme-alpine custom-ag-grid">
+
         <AgGridVue
           :rowData="rowData" 
           :columnDefs="columnDefs"
@@ -17,6 +18,8 @@
           rowSelection="multiple"
           :modules="modules"
         />
+        <!-- <a href="#" @click.prevent="selectTask(task)">{{ rowData.value.taskName}}</a> -->
+
       </div>
     </div>
   </div>
@@ -27,10 +30,11 @@ import { onMounted, ref } from "vue";
 import { AgGridVue } from "ag-grid-vue3";
 import { ClientSideRowModelModule } from "ag-grid-community";
 import { useTaskStore } from "@/store/taskStore";
+import { useRouter } from "vue-router";
 
 const modules = ref([ClientSideRowModelModule]);
 const taskStore = useTaskStore();
-
+const router = useRouter();
 const rowData = ref([]);
 
 const columnDefs = ref([
@@ -49,7 +53,26 @@ const defaultColDef = ref({
 onMounted(async () => {
   await taskStore.fetchTask();
   rowData.value = taskStore.tasks; 
+  rowData.value = rowData.value.map((task) => {
+    return {
+      taskId: task.taskId,
+      taskName: task.taskName,
+      category: task.category,
+      status: task.status,
+    };
+  });
 });
+
+const handleAddTask = () => {
+  router.push({ name: "AddTask" }); 
+  taskStore.addTask();
+  console.log("Task Added in store");
+};
+
+// const selectTask = (task) => {
+//   console.log("Task Selected", task);
+//   //router.push({ name: "TaskDetails", params: { taskId: task.taskId } });
+// };
 </script>
 
 <style>

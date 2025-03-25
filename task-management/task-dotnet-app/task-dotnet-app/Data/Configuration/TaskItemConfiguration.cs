@@ -11,16 +11,16 @@ namespace task_dotnet_app.Data.Configuration
 
         public void Configure(EntityTypeBuilder<TaskItem> entity)
         {
-            entity.ToTable("task_items");
+            entity.ToTable("taskItems");
 
             entity.Property(e => e.taskId)
-                .HasColumnName("task_id")
-                .ValueGeneratedOnAdd();
-            //    .UseIdentityAlwaysColumn();
+                .HasColumnName("taskId")
+                .ValueGeneratedOnAdd()
+                .UseIdentityAlwaysColumn();
 
             entity.Property(e => e.taskName)
                 .HasMaxLength(255)
-                .HasColumnName("task_name");
+                .HasColumnName("taskName");
 
             entity.Property(e => e.category)
                 .HasMaxLength(255)

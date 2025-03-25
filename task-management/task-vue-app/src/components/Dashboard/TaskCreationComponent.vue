@@ -1,0 +1,179 @@
+<template>
+  <div>
+    <div>
+    <h2 class="create_task">Create Task</h2>
+    
+    <b-button variant = primary class = "back-button" type="back">Back</b-button>
+    </div> 
+
+    <div class="task-container">
+      <form @submit.prevent="handleSubmit">
+        <!-- Task ID (Auto-Incremented & Disabled) -->
+        <div class="form-group">
+          <label for="taskId">Task ID:</label>
+          <input type="number" id="taskId" v-model="task.taskId" disabled />
+        </div>
+
+        <!-- Task Name -->
+        <div class="form-group">
+          <label for="taskName">Task Name:</label>
+          <input type="text" id="taskName" v-model="task.taskName" required />
+        </div>
+
+        <!-- Category Dropdown -->
+        <div class="form-group">
+          <label for="category">Category:</label>
+          <select id="category" v-model="task.category">
+            <option value="Select one" disabled>Select one</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Database">Database</option>
+            <option value="Cloud">Cloud</option>
+          </select>
+        </div>
+
+        <!-- Estimated Time (Days) -->
+        <div class="form-group">
+          <label for="estimatedTime">Estimated Time (Days):</label>
+          <input
+            type="number"
+            id="estimatedTime"
+            v-model="task.estimatedTime"
+            min="1"
+          />
+        </div>
+
+        <!-- Buttons -->
+        <div class="button-group">
+          <b-button class="submit-button" type="submit">Submit</b-button>
+          <b-button class="reset-button" type="button" @click="resetForm"
+            >Reset</b-button
+          >
+        </div>
+      </form>
+    </div>
+  </div>
+</template>
+
+<script>
+import { ref, computed, onMounted } from "vue";
+import { useTaskStore } from "@/store/taskStore";
+import { addTask } from "@/service/addTask";
+
+export default {
+  setup() {
+    const taskStore = useTaskStore();
+    const lastTaskId = computed(() =>
+      taskStore.tasks.length > 0
+        ? taskStore.tasks[taskStore.tasks.length - 1].taskId + 1
+        : 1
+    );
+
+    const task = ref({
+      taskId: lastTaskId.value,
+      taskName: "",
+      category: "Select one",
+      estimatedTime: 1,
+    });
+
+    onMounted(() => {
+      task.value.taskId = lastTaskId.value;
+    });
+
+    const handleSubmit = async () => {
+      if (task.value.estimatedTime < 1) {
+        alert("Estimated time must be at least 1 day.");
+        return;
+      }
+
+      taskStore.addTask(task.value);
+      await addTask(task.value); 
+      alert("Task added successfully!");
+      resetForm();
+    };
+
+    const resetForm = () => {
+      task.value = {
+        taskId: lastTaskId.value, 
+        taskName: "",
+        category: "Frontend",
+        estimatedTime: 1,
+      };
+    };
+
+    return { task, handleSubmit, resetForm };
+  },
+};
+</script>
+
+<style scoped>
+.create_task {
+  text-align: center;
+  margin-top: 30px;
+  padding: 25px;
+  font-size: 2rem;
+}
+
+.task-container {
+  max-width: 50%;
+  height: 50%;
+  margin: auto;
+  padding: 40px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background: #f9f9f9;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  width: 40%;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 55%;
+  padding: 5px;
+}
+
+.button-group {
+  justify-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 35px 280px;
+}
+
+button {
+  padding: 8px 15px;
+  border: none;
+  cursor: pointer;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+button[type="submit"] {
+  background: #28a745;
+  color: white;
+  justify-items: center;
+  justify-content: space-between;
+}
+
+button[type="button"] {
+  background: #dc3545;
+  color: white;
+  justify-items: center;
+  justify-content: space-between;
+}
+</style>
