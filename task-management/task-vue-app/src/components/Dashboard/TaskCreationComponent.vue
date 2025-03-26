@@ -3,24 +3,21 @@
     <div>
     <h2 class="create_task">Create Task</h2>
     
-    <b-button variant = primary class = "back-button" type="back">Back</b-button>
+    <b-button variant = primary @click="handleBack" class= "back-button" type="back">Back</b-button>
     </div> 
 
-    <div class="task-container">
-      <form @submit.prevent="handleSubmit">
-        <!-- Task ID (Auto-Incremented & Disabled) -->
+    <div @submit.prevent="handleSubmit" class="task-container">
+      <form>
         <div class="form-group">
           <label for="taskId">Task ID:</label>
           <input type="number" id="taskId" v-model="task.taskId" disabled />
         </div>
 
-        <!-- Task Name -->
         <div class="form-group">
           <label for="taskName">Task Name:</label>
           <input type="text" id="taskName" v-model="task.taskName" required />
         </div>
 
-        <!-- Category Dropdown -->
         <div class="form-group">
           <label for="category">Category:</label>
           <select id="category" v-model="task.category">
@@ -32,7 +29,16 @@
           </select>
         </div>
 
-        <!-- Estimated Time (Days) -->
+         <div class="form-group">
+          <label for="status">Status:</label>
+          <select id="status" v-model="task.status">
+            <option value="Select one" disabled>Select one</option>
+            <option value="Pending">Pending</option>
+            <option value="In Progress">In Progress</option>
+            <option value="Completed">Completed</option>
+          </select>
+        </div>
+
         <div class="form-group">
           <label for="estimatedTime">Estimated Time (Days):</label>
           <input
@@ -43,7 +49,6 @@
           />
         </div>
 
-        <!-- Buttons -->
         <div class="button-group">
           <b-button class="submit-button" type="submit">Submit</b-button>
           <b-button class="reset-button" type="button" @click="resetForm"
@@ -58,11 +63,14 @@
 <script>
 import { ref, computed, onMounted } from "vue";
 import { useTaskStore } from "@/store/taskStore";
-import { addTask } from "@/service/addTask";
+import { useRouter } from "vue-router";
+
 
 export default {
   setup() {
     const taskStore = useTaskStore();
+    const router = useRouter();
+
     const lastTaskId = computed(() =>
       taskStore.tasks.length > 0
         ? taskStore.tasks[taskStore.tasks.length - 1].taskId + 1
@@ -74,6 +82,7 @@ export default {
       taskName: "",
       category: "Select one",
       estimatedTime: 1,
+      status:"Select one"
     });
 
     onMounted(() => {
@@ -86,22 +95,28 @@ export default {
         return;
       }
 
-      taskStore.addTask(task.value);
-      await addTask(task.value); 
-      alert("Task added successfully!");
+      await taskStore.createTask(task.value);
+      console.log("task added", task.value);
+      alert("Task added successfully!", task.value);
+      await taskStore.fetchTask();
+      
       resetForm();
+    };
+
+    const handleBack = async() => {
+      router.push({ name: "Home" });
     };
 
     const resetForm = () => {
       task.value = {
         taskId: lastTaskId.value, 
         taskName: "",
-        category: "Frontend",
+        category: "Select one",
         estimatedTime: 1,
       };
     };
 
-    return { task, handleSubmit, resetForm };
+    return { task, handleSubmit, resetForm , handleBack};
   },
 };
 </script>
@@ -109,16 +124,16 @@ export default {
 <style scoped>
 .create_task {
   text-align: center;
-  margin-top: 30px;
-  padding: 25px;
+  margin-top: 20px;
+  padding: 20px;
   font-size: 2rem;
 }
 
 .task-container {
   max-width: 50%;
-  height: 50%;
+  
   margin: auto;
-  padding: 40px;
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 15px;
   background: #f9f9f9;

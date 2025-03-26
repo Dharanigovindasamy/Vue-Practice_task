@@ -15,5 +15,10 @@ const pinia = createPinia();
 const app = createApp(App)
 app.use(BootstrapVue3);
 app.use(router);
-app.use(pinia); 
+app.use(pinia);
+pinia.use(({ store }) => {
+    if (window.__VUE_DEVTOOLS_GLOBAL_HOOK__) {
+        store.$devtools = window.__VUE_DEVTOOLS_GLOBAL_HOOK__;
+    }
+});
 app.mount('#app')
