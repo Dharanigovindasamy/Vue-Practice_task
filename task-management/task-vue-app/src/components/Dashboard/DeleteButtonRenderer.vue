@@ -1,5 +1,5 @@
 <template>
-  <div class="delete-icon" @click="handleDelete">
+  <div class="delete-icon" :style="{ 'width': 25 + 'px' }" @click="handleDelete">
     <!-- <p>Component Loaded!</p> ✅ Debugging -->
     <!-- <img :src="closeImage" alt="Delete Icon" width="30" height="30" /> -->
     <!-- <img src="/images/close-image.png" alt="Delete Icon" width="30" height="30" /> -->
@@ -22,14 +22,15 @@ const props = defineProps({
   },
 });
 
-const handleDelete = () => {
+const handleDelete = (param) => {
+  console.log(param,'inside click');
    if (!props.params || !props.params.data) {
     console.error("Params or Data is missing in DeleteButtonRenderer");
     return;
   }
   const taskId = props.params.data.taskId; 
-  console.log("Delete task with id111: ", taskId);
-  props.params.context.deleteTask(taskId);
+  console.log("Delete task with id111: ", taskId, props.params);
+  props.params?.context(taskId);
   console.log("Delete task with id: ", taskId);
   console.log("Props Params Context:", props.params.context);
 

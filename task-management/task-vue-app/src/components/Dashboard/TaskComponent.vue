@@ -13,23 +13,7 @@ const taskStore = useTaskStore();
 const router = useRouter();
 const rowData = ref(taskStore.tasks.length > 0 ? [...taskStore.tasks] : []);
 const gridApi = ref(null);
-//const showDeleteModal = ref(false);
-//const taskToDelete = ref(null);
 
-// const handleDelete = (params) => {
-//   alert(`Clicked on ${params.data.name}`);
-// };
-
-// const getRowById = (rowId) => {
-//   if (gridApi.value) {
-//     const rowNode = gridApi.value.getRowNode(rowId);
-//     if (rowNode) {
-//       alert(`Row Data: ${JSON.stringify(rowNode.data, null, 2)}`);
-//     } else {
-//       alert("Row not found!");
-//     }
-//   }
-// };
 const columnDefs = ref([
   { field: "taskId", headerName: "Task Id", sortable: true, filter: true },
   { field: "taskName", headerName: "Task Name", sortable: true, filter: true },
@@ -39,8 +23,6 @@ const columnDefs = ref([
     field: "delete",
     headerName: "Delete",
     cellRenderer: DeleteButtonRenderer,
-    //  cellRendererParams: { context: { deleteTask } },
-  //  cellRenderer: () => '<img src=".png" alt="Delete" style="width: 20px; cursor: pointer;" />',
   },
 ]);
 console.log("Task component");
@@ -54,8 +36,6 @@ const defaultColDef = ref({
 const onGridReady = (params) => {
   gridApi.value = params.api;
   console.log("Grid is ready:", gridApi.value);
-  //  const selectedRowData = gridApi.value!.getSelectedRows();
-  //     gridApi.value!.applyTransaction({ remove: selectedRowData });
 };
 
 const deletedTask = (taskId) => {
@@ -64,8 +44,7 @@ const deletedTask = (taskId) => {
   if (taskId && gridApi.value) {
     const rowNode = gridApi.value.getRowNode(taskId);
     if (rowNode) {
-      gridApi.value.applyTransaction({ remove: [rowNode.data] }); // Remove row from grid
-      taskStore.deleteTask(taskId); // Update store
+      gridApi.value.applyTransaction({ remove: [rowNode.data] }); 
     }
   }
 };
@@ -116,7 +95,7 @@ console.log("Column Defs:", columnDefs.value);
           animateRows="true"
           rowSelection="multiple"
           :modules="modules"
-          :context="{ deletedTask}"
+          :context="deletedTask"
           @grid-ready="onGridReady"
           :components="{ DeleteButtonRenderer }"
         />

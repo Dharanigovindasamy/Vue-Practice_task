@@ -2,20 +2,24 @@
   <div class="task-board">
     <h4 class="board-title">Task Organise</h4>
     <div class="board-columns">
-      <!-- Pending Tasks -->
       <div class="board-column">
         <h4 class="column-title pending">Pending</h4>
-        <draggable class="organised-task-list" v-model="pendingTasks" group="tasks" item-key="taskId">
+        <draggable
+          class="organised-task-list"
+          v-model="pendingTasks"
+          group="tasks"
+          item-key="taskId"
+        >
           <template #item="{ element }">
             <div class="task-card pending-task">
-             <h5>{{ element.taskName }}</h5>
+              <h5>{{ element.taskName }}</h5>
               <p>{{ element.category }}</p>
             </div>
           </template>
         </draggable>
       </div>
 
-     <div class="board-column">
+      <div class="board-column">
         <h4 class="column-title in-progress">In Progress</h4>
         <draggable
           class="organised-task-list"
@@ -32,7 +36,6 @@
         </draggable>
       </div>
 
-      <!-- Completed Tasks -->
       <div class="board-column">
         <h4 class="column-title completed">Completed</h4>
         <draggable
@@ -55,8 +58,8 @@
 
 <script>
 import draggable from "vuedraggable";
-import { onMounted,ref } from "vue";
-import { useTaskStore } from "../../store/taskStore"; 
+import { onMounted, ref } from "vue";
+import { useTaskStore } from "../../store/taskStore";
 
 export default {
   components: {
@@ -64,28 +67,35 @@ export default {
   },
   setup() {
     const taskStore = useTaskStore();
-   // const isLoaded = ref(false); 
-     const pendingTasks = ref([]);
+    const pendingTasks = ref([]);
     const inProgressTasks = ref([]);
     const completedTasks = ref([]);
-    
- const fetchAndCategorizeTasks = async () => {
-  console.log("Fetching tasks...");
-  await taskStore.fetchTask(); 
-  console.log("Fetched tasks:", taskStore.tasks);
 
-  taskStore.tasks.forEach(task => console.log("Task ID:", task.taskId, "Status:", task.status));
+    const fetchAndCategorizeTasks = async () => {
+      console.log("Fetching tasks...");
+      await taskStore.fetchTask();
+      console.log("Fetched tasks:", taskStore.tasks);
 
-  pendingTasks.value = taskStore.tasks.filter(task => task.status === "Pending");
-  inProgressTasks.value = taskStore.tasks.filter(task => task.status === "In Progress");
-  completedTasks.value = taskStore.tasks.filter(task => task.status === "Completed");
+      taskStore.tasks.forEach((task) =>
+        console.log("Task ID:", task.taskId, "Status:", task.status)
+      );
 
-  console.log("Pending Tasks:", pendingTasks.value);
-  console.log("In Progress Tasks:", inProgressTasks.value);
-  console.log("Completed Tasks:", completedTasks.value);
-};
+      pendingTasks.value = taskStore.tasks.filter(
+        (task) => task.status === "Pending"
+      );
+      inProgressTasks.value = taskStore.tasks.filter(
+        (task) => task.status === "In Progress"
+      );
+      completedTasks.value = taskStore.tasks.filter(
+        (task) => task.status === "Completed"
+      );
 
-    onMounted(fetchAndCategorizeTasks); // Call function when component mounts
+      console.log("Pending Tasks:", pendingTasks.value);
+      console.log("In Progress Tasks:", inProgressTasks.value);
+      console.log("Completed Tasks:", completedTasks.value);
+    };
+
+    onMounted(fetchAndCategorizeTasks);
 
     return { pendingTasks, inProgressTasks, completedTasks };
   },
@@ -167,7 +177,6 @@ export default {
   margin: 5px 0 0 0;
 }
 
-/* Different Task Colors */
 .pending-task {
   border-left: 4px solid #d32f2f;
 }
