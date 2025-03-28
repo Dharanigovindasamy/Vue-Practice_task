@@ -9,7 +9,7 @@ const isMenuOpen = ref(false);
     <nav class="navbar navbar-expand-lg navbar-dark bg-info">
       <div class="container">
         <RouterLink class="navbar-brand d-flex" to="/">
-          <i class="bi bi-list-task fs-4 me-2"></i> Task Management
+          <i class="bi fs-4 me-2"></i> Task Management
         </RouterLink>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

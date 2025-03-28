@@ -1,13 +1,25 @@
 <template>
   <div>
-    <NavBarComponent />
+    <!-- <navigationBar/> -->
     <h3 class="welcome">Welcome User</h3>
   </div>
 </template>
 
- <script>
+ 
+<script>
+//import navigationBar from "../Common/NavBarComponent.vue";
+export default {
+  components: {
+    // navigationBar, 
+  },
+  setup() {
+    
+  },
+};
 
 </script>
+
+
 <style scoped>
 .welcome {
   text-align: center;

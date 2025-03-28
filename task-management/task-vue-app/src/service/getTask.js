@@ -45,11 +45,13 @@ export const getTask = () => {
     const existingTasks = taskStore.tasks || [];
     const allTasks = [
       ...staticTasks,
+      // ...taskStore.createTask,
       ...existingTasks.filter((task) =>
         !staticTasks.some((staticTask) => staticTask.taskId === task.taskId)
       ),
     ];
-
+   // const allTasks = [...staticTasks, ...taskStore.tasks];
+    
     console.log("Tasks retrieved successfully", allTasks);
     return allTasks;
   } catch (error) {

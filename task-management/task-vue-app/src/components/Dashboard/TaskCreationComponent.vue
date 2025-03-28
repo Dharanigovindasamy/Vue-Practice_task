@@ -1,13 +1,15 @@
 <template>
   <div>
-    <div>
-    <h2 class="create_task">Create Task</h2>
-    
-    <b-button variant = primary @click="handleBack" class= "back-button" type="back">Back</b-button>
-    </div> 
+    <div class="taskCreateContainer">
+      <h6 class="create_task">Create Task</h6>
+
+      <b-button @click="handleBack" class="back-button" type="back"
+        >Back</b-button
+      >
+    </div>
 
     <div @submit.prevent="handleSubmit" class="task-container">
-      <form>
+      <form class="createForm">
         <div class="form-group">
           <label for="taskId">Task ID:</label>
           <input type="number" id="taskId" v-model="task.taskId" disabled />
@@ -29,7 +31,7 @@
           </select>
         </div>
 
-         <div class="form-group">
+        <!-- <div class="form-group">
           <label for="status">Status:</label>
           <select id="status" v-model="task.status">
             <option value="Select one" disabled>Select one</option>
@@ -37,7 +39,7 @@
             <option value="In Progress">In Progress</option>
             <option value="Completed">Completed</option>
           </select>
-        </div>
+        </div> -->
 
         <div class="form-group">
           <label for="estimatedTime">Estimated Time (Days):</label>
@@ -65,7 +67,6 @@ import { ref, computed, onMounted } from "vue";
 import { useTaskStore } from "@/store/taskStore";
 import { useRouter } from "vue-router";
 
-
 export default {
   setup() {
     const taskStore = useTaskStore();
@@ -82,7 +83,7 @@ export default {
       taskName: "",
       category: "Select one",
       estimatedTime: 1,
-      status:"Select one"
+      // status:"Select one"
     });
 
     onMounted(() => {
@@ -99,39 +100,44 @@ export default {
       console.log("task added", task.value);
       alert("Task added successfully!", task.value);
       await taskStore.fetchTask();
-      
+
       resetForm();
     };
 
-    const handleBack = async() => {
+    const handleBack = async () => {
       router.push({ name: "Home" });
     };
 
     const resetForm = () => {
       task.value = {
-        taskId: lastTaskId.value, 
+        taskId: lastTaskId.value,
         taskName: "",
         category: "Select one",
         estimatedTime: 1,
       };
     };
 
-    return { task, handleSubmit, resetForm , handleBack};
+    return { task, handleSubmit, resetForm, handleBack };
   },
 };
 </script>
 
 <style scoped>
 .create_task {
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  margin-top: 20px;
-  padding: 20px;
+  margin-top: 15px;
+  padding: 10px;
   font-size: 2rem;
+  margin-left: 734px;
+  margin-right: auto;
 }
 
 .task-container {
   max-width: 50%;
-  
+  display: flex;
+  flex-direction: row;
   margin: auto;
   padding: 20px;
   border: 1px solid #ccc;
@@ -145,7 +151,6 @@ h2 {
 
 .form-group {
   display: flex;
-  justify-content: space-between;
   padding: 10px;
   align-items: center;
   margin-bottom: 15px;
@@ -166,8 +171,9 @@ select {
   justify-items: center;
   justify-content: space-between;
   display: flex;
+  gap: 20px;
   flex-direction: row;
-  padding: 35px 280px;
+  padding: 35px 270px;
 }
 
 button {
@@ -179,16 +185,46 @@ button {
 }
 
 button[type="submit"] {
+  display: flex;
+  flex-direction: row;
   background: #28a745;
+  color: white;
+  justify-items: center;
+  justify-content: space-between;
+  /* margin- */
+}
+
+button[type="button"] {
+  display: flex;
+  flex-direction: row;
+  background: #dc3545;
   color: white;
   justify-items: center;
   justify-content: space-between;
 }
 
-button[type="button"] {
-  background: #dc3545;
-  color: white;
-  justify-items: center;
-  justify-content: space-between;
+.back-button {
+  background-color: #719dd0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 85px;
+  padding: 12px;
+}
+
+.taskCreateContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.createForm {
+  display: flex;
+  flex-direction: column;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 </style>

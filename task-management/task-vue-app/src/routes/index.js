@@ -3,6 +3,7 @@ import HomePage from '../components/Dashboard/HomePage.vue';
 import TaskComponent from '../components/Dashboard/TaskComponent.vue';
 import OrganiseComponent from '../components/Organiser/OrganiseComponent.vue';
 import TaskCreationComponent from '../components/Dashboard/TaskCreationComponent.vue';
+import DetailTaskComponent from '../components/Dashboard/DetailTaskComponent.vue';
 
 const router = createRouter({
   history: createWebHistory(),
@@ -27,6 +28,13 @@ const router = createRouter({
       name: 'Organise',
       component: OrganiseComponent,
     },
+    {
+      path: "/task/:id",
+      name: "TaskDetails",
+      component: DetailTaskComponent,
+      props: true,
+    }
+    
   ],
 });
 

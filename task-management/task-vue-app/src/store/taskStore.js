@@ -100,28 +100,56 @@ import { getTask } from "@/service/getTask";
 export const useTaskStore = defineStore("taskStore", () => {
   const tasks = ref([]);
 
+  // const fetchTask = async () => {
+  //   try {
+  //     const response = await getTask();
+  //     console.log(response, "get task response");
+  //     if (response) {
+  //       // Merge fetched tasks with existing tasks, ensuring no duplicates
+  //       const existingTaskIds = new Set(tasks.value.map((task) => task.taskId));
+
+  //       const newTasks = response.filter((task) => !existingTaskIds.has(task.taskId));
+
+  //       tasks.value = [...tasks.value, ...newTasks]; // Keep existing and add new
+  //       console.log("Tasks fetched successfully", tasks.value);
+  //     } else {
+  //       console.error("No data received from getTask");
+  //     }
+   
+  //   } catch (error) {
+  //     console.error("Error fetching tasks:", error);
+  //   }
+  // };
   const fetchTask = async () => {
     try {
       const response = await getTask();
       console.log(response, "get task response");
-      if (response) {
-        tasks.value = [...response]; // Update tasks with merged list
+  
+      if (response && Array.isArray(response)) {
+        tasks.value = response;
+       // tasks.value = [...response];
         console.log("Tasks fetched successfully", tasks.value);
       } else {
-        console.error("No data received from getTask");
+        console.error("No data received or data is not an array");
       }
     } catch (error) {
       console.error("Error fetching tasks:", error);
     }
   };
+  
 
   const createTask = (newTask) => {
     if (!newTask.taskId) {
       newTask.taskId =
         tasks.value.length > 0 ? tasks.value[tasks.value.length - 1].taskId + 1 : 1;
     }
-    tasks.value.push(newTask);
-    console.log("Task added successfully", tasks.value, "in store");
+    newTask.status = "Pending";
+    if (!tasks.value.some((task) => task.taskId === newTask.taskId)) {
+      tasks.value.push(newTask);
+      console.log("Task added successfully", tasks.value);
+    }
+    // tasks.value.push(newTask);
+    // console.log("Task added successfully", tasks.value, "in store");
   };
 
   const deleteTask = (taskId) => {
@@ -130,5 +158,13 @@ export const useTaskStore = defineStore("taskStore", () => {
     console.log("Tasks after deletion:", tasks.value, "in store");
   };
 
-  return { tasks, fetchTask, createTask, deleteTask };
+  const updateTask = (updatedTask) => {
+    const index = tasks.value.findIndex((t) => t.taskId === updatedTask.taskId);
+    if (index !== -1) {
+      tasks.value[index] = { ...updatedTask }; 
+    }
+    console.log("updated task in store ", updateTask);
+  };
+
+  return { tasks, fetchTask, createTask, deleteTask, updateTask };
 });
