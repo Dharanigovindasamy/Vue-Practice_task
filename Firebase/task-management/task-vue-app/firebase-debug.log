@@ -1,0 +1,211 @@
+[debug] [2025-03-31T09:40:06.884Z] ----------------------------------------------------------------------
+[debug] [2025-03-31T09:40:06.887Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dharani.govindhasamy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-03-31T09:40:06.888Z] CLI Version:   14.0.1
+[debug] [2025-03-31T09:40:06.888Z] Platform:      win32
+[debug] [2025-03-31T09:40:06.888Z] Node Version:  v20.17.0
+[debug] [2025-03-31T09:40:06.888Z] Time:          Mon Mar 31 2025 15:10:06 GMT+0530 (India Standard Time)
+[debug] [2025-03-31T09:40:06.889Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-31T09:40:07.134Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-31T09:40:07.135Z] > authorizing via signed-in user (dharanigkd02@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dharani.govindhasamy\sample_task\task-management\task-vue-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-31T09:40:11.732Z] Using project from CLI flag: task-management-dac37
+[debug] [2025-03-31T09:40:11.734Z] Checked if tokens are valid: false, expires at: 1743402117941
+[debug] [2025-03-31T09:40:11.735Z] Checked if tokens are valid: false, expires at: 1743402117941
+[debug] [2025-03-31T09:40:11.736Z] > refreshing access token with scopes: []
+[debug] [2025-03-31T09:40:11.739Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-03-31T09:40:11.739Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-31T09:40:11.988Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-03-31T09:40:11.989Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-03-31T09:40:12.000Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 [none]
+[debug] [2025-03-31T09:40:12.466Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 200
+[debug] [2025-03-31T09:40:12.466Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 {"projectId":"task-management-dac37","projectNumber":"844473722624","displayName":"task-management","name":"projects/task-management-dac37","resources":{"hostingSite":"task-management-dac37"},"state":"ACTIVE","etag":"1_69b0e5b9-7785-4a39-acba-bd8360d9f622"}
+[info] i  Using project task-management-dac37 (task-management) 
+[info] 
+=== Hosting Setup
+[debug] [2025-03-31T09:40:12.473Z] Checked if tokens are valid: true, expires at: 1743417610989
+[debug] [2025-03-31T09:40:12.473Z] Checked if tokens are valid: true, expires at: 1743417610989
+[debug] [2025-03-31T09:40:12.473Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 [none]
+[debug] [2025-03-31T09:40:12.999Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 200
+[debug] [2025-03-31T09:40:13.000Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 {"projectId":"task-management-dac37","projectNumber":"844473722624","displayName":"task-management","name":"projects/task-management-dac37","resources":{"hostingSite":"task-management-dac37"},"state":"ACTIVE","etag":"1_69b0e5b9-7785-4a39-acba-bd8360d9f622"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-03-31T09:40:21.692Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-03-31T09:40:21.800Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-03-31T09:40:21.801Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.5.0","browserURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.tgz"},"live":{"version":"11.5","browserURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.5.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.5.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.5.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.5.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.memory.js"}}
+[info] i  y/index.html is unchanged 
+[info] 
+[info] i  Detected a .git folder at C:\Users\dharani.govindhasamy\sample_task 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=853385515&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-03-31T09:40:22.673Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-03-31T09:40:22.674Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-03-31T09:40:23.097Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-03-31T09:40:23.097Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-03-31T09:40:23.104Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-03-31T09:40:23.483Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-03-31T09:40:23.484Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Dharanigovindasamy","id":113797418,"node_id":"U_kgDOBshpKg","avatar_url":"https://avatars.githubusercontent.com/u/113797418?v=4","gravatar_id":"","url":"https://api.github.com/users/Dharanigovindasamy","html_url":"https://github.com/Dharanigovindasamy","followers_url":"https://api.github.com/users/Dharanigovindasamy/followers","following_url":"https://api.github.com/users/Dharanigovindasamy/following{/other_user}","gists_url":"https://api.github.com/users/Dharanigovindasamy/gists{/gist_id}","starred_url":"https://api.github.com/users/Dharanigovindasamy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Dharanigovindasamy/subscriptions","organizations_url":"https://api.github.com/users/Dharanigovindasamy/orgs","repos_url":"https://api.github.com/users/Dharanigovindasamy/repos","events_url":"https://api.github.com/users/Dharanigovindasamy/events{/privacy}","received_events_url":"https://api.github.com/users/Dharanigovindasamy/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":15,"public_gists":0,"followers":0,"following":3,"created_at":"2022-09-17T18:28:57Z","updated_at":"2025-03-13T09:59:29Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":340167,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Dharanigovindasamy 
+[info] 
+[debug] [2025-03-31T09:41:07.112Z] >>> [apiv2][query] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key type=owner
+[debug] [2025-03-31T09:41:07.448Z] <<< [apiv2][status] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key 404
+[debug] [2025-03-31T09:41:07.448Z] <<< [apiv2][body] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-31T09:41:22.547Z] >>> [apiv2][query] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key type=owner
+[debug] [2025-03-31T09:41:22.939Z] <<< [apiv2][status] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key 404
+[debug] [2025-03-31T09:41:22.939Z] <<< [apiv2][body] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-31T09:42:23.530Z] >>> [apiv2][query] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key type=owner
+[debug] [2025-03-31T09:42:23.957Z] <<< [apiv2][status] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key 404
+[debug] [2025-03-31T09:42:23.957Z] <<< [apiv2][body] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-31T09:42:24.247Z] >>> [apiv2][query] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key type=owner
+[debug] [2025-03-31T09:42:24.547Z] <<< [apiv2][status] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key 404
+[debug] [2025-03-31T09:42:24.547Z] <<< [apiv2][body] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-31T09:42:33.866Z] >>> [apiv2][query] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key type=owner
+[debug] [2025-03-31T09:42:34.086Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-03-31T09:42:34.199Z] <<< [apiv2][status] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key 404
+[debug] [2025-03-31T09:42:34.199Z] <<< [apiv2][body] GET https://api.github.com/repos/ Dharanigovindasamy/Practice_task/actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest/actions/secrets#get-a-repository-public-key","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-31T09:42:34.424Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-03-31T09:42:34.424Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
+[debug] [2025-03-31T09:42:41.124Z] ----------------------------------------------------------------------
+[debug] [2025-03-31T09:42:41.130Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dharani.govindhasamy\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-03-31T09:42:41.130Z] CLI Version:   14.0.1
+[debug] [2025-03-31T09:42:41.131Z] Platform:      win32
+[debug] [2025-03-31T09:42:41.131Z] Node Version:  v20.17.0
+[debug] [2025-03-31T09:42:41.131Z] Time:          Mon Mar 31 2025 15:12:41 GMT+0530 (India Standard Time)
+[debug] [2025-03-31T09:42:41.131Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-03-31T09:42:41.430Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-03-31T09:42:41.431Z] > authorizing via signed-in user (dharanigkd02@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dharani.govindhasamy\sample_task\task-management\task-vue-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-03-31T09:43:18.206Z] Using project from CLI flag: task-management-dac37
+[debug] [2025-03-31T09:43:18.209Z] Checked if tokens are valid: true, expires at: 1743417610989
+[debug] [2025-03-31T09:43:18.209Z] Checked if tokens are valid: true, expires at: 1743417610989
+[debug] [2025-03-31T09:43:18.212Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 [none]
+[debug] [2025-03-31T09:43:18.714Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 200
+[debug] [2025-03-31T09:43:18.714Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 {"projectId":"task-management-dac37","projectNumber":"844473722624","displayName":"task-management","name":"projects/task-management-dac37","resources":{"hostingSite":"task-management-dac37"},"state":"ACTIVE","etag":"1_69b0e5b9-7785-4a39-acba-bd8360d9f622"}
+[info] i  Using project task-management-dac37 (task-management) 
+[info] 
+=== Hosting Setup
+[debug] [2025-03-31T09:43:18.723Z] Checked if tokens are valid: true, expires at: 1743417610989
+[debug] [2025-03-31T09:43:18.723Z] Checked if tokens are valid: true, expires at: 1743417610989
+[debug] [2025-03-31T09:43:18.723Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 [none]
+[debug] [2025-03-31T09:43:19.257Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 200
+[debug] [2025-03-31T09:43:19.257Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/task-management-dac37 {"projectId":"task-management-dac37","projectNumber":"844473722624","displayName":"task-management","name":"projects/task-management-dac37","resources":{"hostingSite":"task-management-dac37"},"state":"ACTIVE","etag":"1_69b0e5b9-7785-4a39-acba-bd8360d9f622"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-03-31T09:43:25.579Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-03-31T09:43:25.683Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-03-31T09:43:25.684Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"11.5.0","browserURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/11.5.0/firebase.tgz"},"live":{"version":"11.5","browserURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/11.5/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/11.5.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/11.5.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/11.5.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/11.5.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/11.5.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/11.5.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/11.5.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/11.5.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/11.5.0/firebase-database.js","vertexai":"https://www.gstatic.com/firebasejs/11.5.0/firebase-vertexai.js","data-connect":"https://www.gstatic.com/firebasejs/11.5.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.memory.js"}}
+[info] i  y/index.html is unchanged 
+[info] 
+[info] i  Detected a .git folder at C:\Users\dharani.govindhasamy\sample_task 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=80672198&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-03-31T09:43:26.533Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-03-31T09:43:26.535Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-03-31T09:43:26.940Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-03-31T09:43:26.940Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-03-31T09:43:26.960Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-03-31T09:43:27.373Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-03-31T09:43:27.374Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Dharanigovindasamy","id":113797418,"node_id":"U_kgDOBshpKg","avatar_url":"https://avatars.githubusercontent.com/u/113797418?v=4","gravatar_id":"","url":"https://api.github.com/users/Dharanigovindasamy","html_url":"https://github.com/Dharanigovindasamy","followers_url":"https://api.github.com/users/Dharanigovindasamy/followers","following_url":"https://api.github.com/users/Dharanigovindasamy/following{/other_user}","gists_url":"https://api.github.com/users/Dharanigovindasamy/gists{/gist_id}","starred_url":"https://api.github.com/users/Dharanigovindasamy/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Dharanigovindasamy/subscriptions","organizations_url":"https://api.github.com/users/Dharanigovindasamy/orgs","repos_url":"https://api.github.com/users/Dharanigovindasamy/repos","events_url":"https://api.github.com/users/Dharanigovindasamy/events{/privacy}","received_events_url":"https://api.github.com/users/Dharanigovindasamy/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":15,"public_gists":0,"followers":0,"following":3,"created_at":"2022-09-17T18:28:57Z","updated_at":"2025-03-13T09:59:29Z","private_gists":0,"total_private_repos":3,"owned_private_repos":3,"disk_usage":340167,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Dharanigovindasamy 
+[info] 
