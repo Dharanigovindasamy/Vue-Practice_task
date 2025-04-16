@@ -1,27 +1,38 @@
-﻿//using Microsoft.EntityFrameworkCore;
-//using task_dotnet_app.Data.Configuration;
-//using task_dotnet_app.Data.Model;
+﻿using Microsoft.EntityFrameworkCore;
+using task_dotnet_app.Data.Configuration;
+using task_dotnet_app.Data.Model;
 
-//namespace task_dotnet_app.Data
-//{
-//    public partial class TaskDbContext : DbContext
-//    {
-//        public TaskDbContext(DbContextOptions<TaskDbContext> options)
-//            : base(options)
-//        {
-//        }
+namespace task_dotnet_app.Data
+{
+    public partial class TaskDbContext : DbContext
+    {
+        public TaskDbContext(DbContextOptions<TaskDbContext> options)
+            : base(options)
+        {
+        }
 
-//        public virtual DbSet<TaskItem> TaskItems { get; set; }
+        public virtual DbSet<TaskItems> TaskItems { get; set; }
+        public virtual DbSet<UserTasks> UserTasks { get; set; }
+        public virtual DbSet<UserRoles> UserRoles { get; set; }
+        public virtual DbSet<Projects> Projects { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
+        public virtual DbSet<Roles> Roles { get; set; }
+        public virtual DbSet<ProjectRole> ProjectRoles { get; set; }
 
-//        protected override void OnModelCreating(ModelBuilder modelBuilder)
-//        {
-//            modelBuilder.HasAnnotation("Relational:Collation", "English_United States.1252");
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.HasAnnotation("Relational:Collation", "English_United States.1252");
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
 
-//            modelBuilder.ApplyConfiguration(new TaskItemConfiguration());
+            modelBuilder.ApplyConfiguration(new TaskItemConfiguration());
+            modelBuilder.ApplyConfiguration(new UserTaskConfiguration());
+            modelBuilder.ApplyConfiguration(new UserRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new ProjectConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new RolesConfiguration());
+            modelBuilder.ApplyConfiguration(new ProjectRoleConfiguration());
 
-//            OnModelCreatingPartial(modelBuilder);
-//        }
-
-//        partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-//    }
-//}
+            base.OnModelCreating(modelBuilder);
+        }  
+    }
+}

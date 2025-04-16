@@ -1,5 +1,5 @@
-// import { BASE_URL } from "@/store/util";
-// import axios from "axios";
+//import { BASE_URL } from "@/store/util";
+import axios from "axios";
 
 //import { ref } from "vue";
 
@@ -7,19 +7,20 @@
 //     baseURL: BASE_URL
 // });
 
-// export const addTask = async (task) => {
-//     try {
-//         const response = await addTaskUrl.post("/tasks/AddTask", task, 
-//              { headers: {
-//             "Content-Type": "application/json" 
-//         }}
-//         );
-//         console.log("Task added successfully", response.data);
-//         return response.data;
-//     } catch (error) {
-//         console.error("Error in addTask", error);
-//     }
-// }
+export const addTask = async (task) => {
+    try {
+        // const response = await addTaskUrl.post("/tasks", task, 
+        //      { headers: {
+        //     "Content-Type": "application/json" 
+        // }}
+        // );
+        const response = await axios.post("http://localhost:5000/api/task", task);
+        console.log("Task added successfully in service", response.data);
+        return response.data;
+    } catch (error) {
+        console.error("Error in addTask in service", error);
+    }
+}
 
 // import {ref} from vue;
 // export const addTask = async (task) => {

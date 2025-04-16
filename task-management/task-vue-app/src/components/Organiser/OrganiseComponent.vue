@@ -89,7 +89,7 @@
 import draggable from "vuedraggable";
 import { onMounted, ref, watch } from "vue";
 import { useTaskStore } from "../../store/taskStore";
-import { useRoute } from "vue-router"; // Import useRoute to access state
+import { useRoute } from "vue-router";
 import { AlertCircleIcon, LoaderIcon, CheckCircleIcon, ClockIcon } from "lucide-vue-next";
 
 export default {
@@ -108,6 +108,7 @@ export default {
     const completedTasks = ref([]);
 
     const updateTaskLists = (tasks) => {
+      console.log("Updating task lists with tasks:", tasks);
       pendingTasks.value = tasks.filter((task) => task.status === "Pending");
       inProgressTasks.value = tasks.filter((task) => task.status === "In Progress");
       completedTasks.value = tasks.filter((task) => task.status === "Completed");
@@ -139,17 +140,41 @@ export default {
       const taskIndex = taskStore.tasks.findIndex((task) => task.taskId === movedTask.taskId);
       console.log("Task index:", taskIndex);
 
+      // if (newStatus && movedTask.status !== newStatus && taskIndex !== -1) {
+      //   taskStore.tasks[taskIndex].status = newStatus;
+      //   console.log(`Task ${movedTask.taskId} status updated to ${newStatus}`);
+
+      //   const updatedTask = taskStore.tasks[taskIndex];
+      //   console.log("Dragged card status (after drop):", updatedTask.status);
+      //   try {
+      //     taskStore.updateTask(updatedTask);
+      //     console.log("Task updated in store:", updatedTask);
+      //   } catch (error) {
+      //     console.error("Error updating task in store:", error);
+      //   }
+      //   updateTaskLists(taskStore.tasks);
+      // } else {
+      //   console.log("No status change needed (same column or invalid drop)");
+      // }
       if (newStatus && movedTask.status !== newStatus && taskIndex !== -1) {
-        taskStore.tasks[taskIndex].status = newStatus;
-        console.log(`Task ${movedTask.taskId} status updated to ${newStatus}`);
+  const originalTask = taskStore.tasks[taskIndex];
+  const updatedTask = { ...originalTask, status: newStatus };
 
-        const updatedTask = taskStore.tasks[taskIndex];
-        console.log("Dragged card status (after drop):", updatedTask.status);
+  // Update task in store
+  taskStore.tasks[taskIndex] = updatedTask;
 
-        updateTaskLists(taskStore.tasks);
-      } else {
-        console.log("No status change needed (same column or invalid drop)");
-      }
+  try {
+    taskStore.updateTask(updatedTask);
+    console.log("Task updated in store:", updatedTask);
+  } catch (error) {
+    console.error("Error updating task in store:", error);
+  }
+
+  updateTaskLists(taskStore.tasks);
+} else {
+  console.log("No status change needed (same column or invalid drop)");
+}
+
     };
 
     onMounted(() => {

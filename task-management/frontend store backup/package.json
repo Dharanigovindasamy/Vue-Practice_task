@@ -1,0 +1,23 @@
+{
+  "name": "frontend-store-backup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dharani",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dharanigovindasamy/Vue-Practice_task.git"
+  },
+  "keywords": [
+    "task",
+    "management"
+  ],
+  "bugs": {
+    "url": "https://github.com/Dharanigovindasamy/Vue-Practice_task/issues"
+  },
+  "homepage": "https://github.com/Dharanigovindasamy/Vue-Practice_task#readme",
+  "description": ""
+}

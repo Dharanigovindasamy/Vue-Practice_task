@@ -77,7 +77,7 @@ watch(
     rowData.value = [...newTasks];
     console.log("refreshh", newTasks);
   },
-  { deep: true }
+  // { deep: true }
 );
 
 const handleAddTask = () => {

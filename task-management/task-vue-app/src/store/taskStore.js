@@ -12,7 +12,7 @@
 // //         const response = await getTask(); 
 // //         if (response) {
 // //           this.tasks = [...response]; 
-          
+
 // //           console.log("Tasks fetched successfully", this.tasks);
 // //         } else {
 // //           console.error("No data received from API");
@@ -65,7 +65,7 @@
 //                console.log(response, "get task response");
 //                if (response) {
 //                 tasks.value = [...response]; 
-                
+
 //                  console.log("Tasks fetched successfully", tasks.value);
 //                } else {
 //                  console.error("No data received from API");
@@ -86,7 +86,7 @@
 //     tasks.value = tasks.value.filter((task) => task.id !== taskId);
 //     console.log(tasks.value,'delete in store');
 //   };
- 
+
 
 //   return { tasks, fetchTask, createTask, deleteTask };
 // });
@@ -96,7 +96,9 @@
 import { defineStore } from "pinia";
 import { ref } from "vue";
 import { getTask } from "@/service/getTask";
-
+import { addTask } from "@/service/addTask";
+import { updatedTask } from "@/service/updatedTask";
+import { deletedTask } from "@/service/deletedTask";
 export const useTaskStore = defineStore("taskStore", () => {
   const tasks = ref([]);
 
@@ -115,7 +117,7 @@ export const useTaskStore = defineStore("taskStore", () => {
   //     } else {
   //       console.error("No data received from getTask");
   //     }
-   
+
   //   } catch (error) {
   //     console.error("Error fetching tasks:", error);
   //   }
@@ -124,10 +126,10 @@ export const useTaskStore = defineStore("taskStore", () => {
     try {
       const response = await getTask();
       console.log(response, "get task response");
-  
+
       if (response && Array.isArray(response)) {
         tasks.value = response;
-       // tasks.value = [...response];
+        // tasks.value = [...response];
         console.log("Tasks fetched successfully", tasks.value);
       } else {
         console.error("No data received or data is not an array");
@@ -136,34 +138,65 @@ export const useTaskStore = defineStore("taskStore", () => {
       console.error("Error fetching tasks:", error);
     }
   };
-  
 
-  const createTask = (newTask) => {
+
+  const createTask = async (newTask) => {
     if (!newTask.taskId) {
       newTask.taskId =
         tasks.value.length > 0 ? tasks.value[tasks.value.length - 1].taskId + 1 : 1;
     }
+   
     newTask.status = "Pending";
+   // newTask.category = "Development";
+    newTask.taskDescription = "Create the login page with materialui";
+   //   newTask.taskName = "New Task";
+    newTask.assigneeId = 2;
+      newTask.reporterId = 1;
+      newTask.startedAt =  new Date().toISOString();
+      //newTask.dueDate = "2025-04-20T17:00:00Z",
+
+      const startDate = new Date();
+      const estimatedDays = parseInt(newTask.estimatedTime) || 1; 
+      const dueDate = new Date(startDate);
+      dueDate.setDate(startDate.getDate() + estimatedDays);
+      newTask.dueDate = dueDate.toISOString();
+
+      newTask.priority = "High";
+      newTask.comments = "Initial version needed by end of week";
+      newTask.attachment = "login_sketch.png";
+      newTask.projectId = 2
+
+      console.log("Task added successfully", newTask);
+      const response = await addTask(newTask);
+      console.log("Task added successfully in store",response.data);
     if (!tasks.value.some((task) => task.taskId === newTask.taskId)) {
       tasks.value.push(newTask);
       console.log("Task added successfully", tasks.value);
     }
-    // tasks.value.push(newTask);
-    // console.log("Task added successfully", tasks.value, "in store");
   };
 
-  const deleteTask = (taskId) => {
+  const deleteTask = async(taskId) => {
     console.log("Deleting task with taskId:", taskId);
+    const response = await deletedTask(taskId);
+    console.log("Task deleted successfully in service", response.data);
     tasks.value = tasks.value.filter((task) => task.taskId !== taskId);
     console.log("Tasks after deletion:", tasks.value, "in store");
   };
 
-  const updateTask = (updatedTask) => {
-    const index = tasks.value.findIndex((t) => t.taskId === updatedTask.taskId);
+  const updateTask = async(updatedTaskData) => {
+    console.log("Updating task with taskId:", updatedTaskData);
+    const index = tasks.value.findIndex((t) => t.taskId === updatedTaskData.taskId);
     if (index !== -1) {
-      tasks.value[index] = { ...updatedTask }; 
+      tasks.value[index] = { ...updatedTaskData };
     }
-    console.log("updated task in store ", updateTask);
+    // const response= await updatedTask(updatedTaskData);
+    // console.log("updated task in store ", response.data);
+    try {
+      const result = await updatedTask(updatedTaskData);
+      console.log(result); 
+    } catch (err) {
+      console.error("Error caught when calling updateTask:", err);
+    }
   };
 
   return { tasks, fetchTask, createTask, deleteTask, updateTask };
