@@ -1,4 +1,13 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\tmEntityTask\\TrackTaskApi",
+    "\\tmEntityTask\\TrackTaskApi\\Data",
+    "\\tmEntityTask\\TrackTaskApi\\Features",
+    "\\tmEntityTask\\TrackTaskApi\\Features\\Project",
+    "\\tmEntityTask\\TrackTaskEntity",
+    "\\tmEntityTask\\TrackTaskEntity\\Configuration"
+  ],
+  "SelectedNode": "\\tmEntityTask",
   "PreviewInSolutionExplorer": false
 }

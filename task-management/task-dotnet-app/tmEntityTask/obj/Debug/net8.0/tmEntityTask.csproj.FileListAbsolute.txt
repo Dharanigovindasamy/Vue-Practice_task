@@ -1,0 +1,7 @@
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.csproj.AssemblyReference.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.AssemblyInfoInputs.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.AssemblyInfo.cs
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.csproj.CoreCompileInputs.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\obj\Debug\net8.0\tmEntityTask.sourcelink.json

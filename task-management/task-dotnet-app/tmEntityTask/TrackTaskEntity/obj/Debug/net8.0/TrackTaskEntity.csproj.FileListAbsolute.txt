@@ -1,0 +1,13 @@
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\bin\Debug\net8.0\TrackTaskEntity.deps.json
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\bin\Debug\net8.0\TrackTaskEntity.dll
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\bin\Debug\net8.0\TrackTaskEntity.pdb
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.csproj.AssemblyReference.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.AssemblyInfoInputs.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.AssemblyInfo.cs
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.csproj.CoreCompileInputs.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.sourcelink.json
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.dll
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\refint\TrackTaskEntity.dll
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\TrackTaskEntity.pdb
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskEntity\obj\Debug\net8.0\ref\TrackTaskEntity.dll

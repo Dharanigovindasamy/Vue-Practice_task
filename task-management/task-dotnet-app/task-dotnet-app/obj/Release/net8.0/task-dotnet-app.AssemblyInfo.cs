@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("task-dotnet-app")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b2383353b17f10c47cd3349c08c20565acbb87cb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27cc4758eb570123c72f7c6119ae47d6e1f0ff05")]
 [assembly: System.Reflection.AssemblyProductAttribute("task-dotnet-app")]
 [assembly: System.Reflection.AssemblyTitleAttribute("task-dotnet-app")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

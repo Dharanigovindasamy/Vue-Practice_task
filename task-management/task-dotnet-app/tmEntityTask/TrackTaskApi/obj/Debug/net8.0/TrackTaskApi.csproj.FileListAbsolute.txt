@@ -1,0 +1,6 @@
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskApi\obj\Debug\net8.0\TrackTaskApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskApi\obj\Debug\net8.0\TrackTaskApi.AssemblyInfoInputs.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskApi\obj\Debug\net8.0\TrackTaskApi.AssemblyInfo.cs
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskApi\obj\Debug\net8.0\TrackTaskApi.csproj.CoreCompileInputs.cache
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskApi\obj\Debug\net8.0\TrackTaskApi.sourcelink.json
+C:\Users\dharani.govindhasamy\sample_task\task-management\task-dotnet-app\tmEntityTask\TrackTaskApi\obj\Debug\net8.0\TrackTaskApi.csproj.AssemblyReference.cache

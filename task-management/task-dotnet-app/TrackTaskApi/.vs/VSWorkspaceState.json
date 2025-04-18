@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Features",
+    "\\Features\\Project",
+    "\\Features\\Project\\Query",
+    "\\Features\\Role",
+    "\\Features\\Role\\Mutation",
+    "\\Features\\Task",
+    "\\Features\\Task\\Query",
+    "\\Features\\User",
+    "\\Features\\User\\Mutation",
+    "\\Features\\User\\Query"
+  ],
+  "SelectedNode": "\\Features\\Role\\Mutation\\CreateRole.cs",
+  "PreviewInSolutionExplorer": false
+}
