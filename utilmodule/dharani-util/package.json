@@ -1,0 +1,24 @@
+{
+  "name": "dharani-util",
+  "version": "1.0.1",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+
+  "scripts": {
+    "build": "babel src --out-dir dist",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["utility", "helpers"],
+  "author": "Dharani",
+  "license": "ISC",
+  "description": "A utility module for common JavaScript functions",
+  "devDependencies": {
+    "@babel/cli": "^7.27.2",
+    "@babel/preset-env": "^7.27.2"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ]
+}
