@@ -55,6 +55,9 @@ namespace task_dotnet_app.Data.Configuration
                 .HasForeignKey(ut => ut.UserId)
                 .HasConstraintName("FK_UserTasks_Users")
                 .OnDelete(DeleteBehavior.NoAction);
+
+            builder.HasIndex(u => u.Email)
+                   .HasDatabaseName("idx_users_email");
         }
     }  
 }

@@ -1,42 +1,61 @@
-﻿using MediatR;
-using Microsoft.AspNetCore.Mvc;
-using task_dotnet_app.Features.User.Queries;
+﻿// // File intentionally left empty. UserQueryController logic is now only in UserQueryController.cs.
 
-namespace task_dotnet_app.Features.User
-{
-    [Route("api/user")]
-    [ApiController]
-    public class UserQueryController : ControllerBase
-    {
-        private readonly IMediator _mediator;
+// using MediatR;
+// using Microsoft.AspNetCore.Mvc;
+// using task_dotnet_app.Features.User.Queries;
 
-        public UserQueryController(IMediator mediator)
-        {
-            _mediator = mediator;
-        }
+// namespace task_dotnet_app.Features.User
+// {
+//     [Route("api/user")]
+//     [ApiController]
+//     public class UserQuery: ControllerBase
+//     {
+//         private readonly IMediator _mediator;
 
-        [HttpGet("get/{id}")]
-        public async Task<IActionResult> GetUserById(int id)
-        {
-            var request = new GetUserById.GetUserByIdRequest { UserId = id };
-            var result = await _mediator.Send(request);
-            return Ok(result);
-        }
+//         public UserQuery(IMediator mediator)
+//         {
+//             _mediator = mediator;
+//         }
 
-        [HttpGet("getAllUsers")]
-        public async Task<IActionResult> GetAllUsers()
-        {
-            var request = new GetUsers.GetUsersRequest();
-            var result = await _mediator.Send(request);
-            return Ok(result);
-        }
+//         [HttpGet("get/{id}")]
+//         public async Task<IActionResult> GetUserById(int id)
+//         {
+//             var request = new GetUserById.GetUserByIdRequest { UserId = id };
+//             var result = await _mediator.Send(request);
+//             return Ok(result);
+//         }
 
-        [HttpGet("getAllUsersByRole/{roleId}")]
-        public async Task<IActionResult> GetAllUsersByRole(int roleId)
-        {
-            var request = new GetUsersByRole.GetUsersByRoleRequest { RoleId = roleId };
-            var result = await _mediator.Send(request);
-            return Ok(result);
-        }
-    }
-}
+//         // [HttpGet("getAllUsers")]
+//         // public async Task<IActionResult> GetAllUsers()
+//         // {
+//         //     var request = new GetUsers.GetUsersRequest();
+//         //     var result = await _mediator.Send(request);
+//         //     return Ok(result);
+//         // }
+
+//          [HttpGet("getAllUsers")]
+//         public async Task<IActionResult> GetAllUsers()
+//         {
+//             var cacheKey = "GetAllUsers";
+//             if (!_cache.TryGetValue(cacheKey, out object result))
+//             {
+//                 var request = new GetUsers.GetUsersRequest();
+//                 result = await _mediator.Send(request);
+//                 var cacheEntryOptions = new MemoryCacheEntryOptions()
+//                     .SetSlidingExpiration(TimeSpan.FromMinutes(1));
+//                 _cache.Set(cacheKey, result, cacheEntryOptions);
+//             }
+//             return Ok(result);
+//         }
+
+//         [HttpGet("getAllUsersByRole/{roleId}")]
+//         public async Task<IActionResult> GetAllUsersByRole(int roleId)
+//         {
+//             var request = new GetUsersByRole.GetUsersByRoleRequest { RoleId = roleId };
+//             var result = await _mediator.Send(request);
+//             return Ok(result);
+//         }
+
+        
+//     }
+// }

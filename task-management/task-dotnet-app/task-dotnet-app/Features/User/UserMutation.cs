@@ -44,5 +44,24 @@ namespace task_dotnet_app.Features.User
             }
             return Ok(result);
         }
+
+    //     [HttpPost("bulk-insert-users")]
+    //     public async Task<IActionResult> BulkInsertUsers()
+    //     {
+    //         var stopwatch = System.Diagnostics.Stopwatch.StartNew();
+    //         var users = new List<Users>();
+    //         for (int i = 0; i < 1000; i++)
+    //         {
+    //             users.Add(new Users
+    //             {
+    //                 userName = $"User_{i}",
+    //                 email = $"user_{i}@example.com"
+    //             });
+    //         }
+    //         context.Users.AddRange(users);
+    //         await context.SaveChangesAsync();
+    //         stopwatch.Stop();
+    //         return Ok(new { Message = "Inserted 1000 users", ElapsedMilliseconds = stopwatch.ElapsedMilliseconds });
+    //     }
     }
 }

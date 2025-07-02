@@ -3,180 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\taskmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\taskmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\mutation\\updatetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\mutation\\updatetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\taskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\taskquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\query\\gettasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\query\\gettasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\query\\gettaskbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\query\\gettaskbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\user\\mutation\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\user\\mutation\\createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\user\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\user\\userquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\user\\query\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\user\\query\\getuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\rolesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\rolesconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\taskitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\taskitemconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\role\\mutation\\createrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\role\\mutation\\createrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\role\\rolemutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\role\\rolemutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\role\\rolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\role\\rolequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\projectroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\projectroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\mutation\\createprojectrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\mutation\\createprojectrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\projectmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\projectmutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\taskitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\taskitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\projectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\projectconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\mutation\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\mutation\\createtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\user\\usermutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\user\\usermutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\projectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\projectquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\projectrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\projectrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\taskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\mutation\\createproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\mutation\\createproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\usertaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\usertaskconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\configuration\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\configuration\\userroleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\usertasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\usertasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\data\\model\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:data\\model\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\role\\query\\getrolebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\role\\query\\getrolebyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\user\\query\\getuserbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\user\\query\\getuserbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\user\\mutation\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\user\\mutation\\updateuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\role\\query\\getroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\role\\query\\getroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\task\\mutation\\deletetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\task\\mutation\\deletetask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\mutation\\updateproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\mutation\\updateproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\mutation\\deleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\mutation\\deleteproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\query\\getprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\query\\getprojects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\project\\query\\getprojectsbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\project\\query\\getprojectsbyid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|c:\\users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\features\\role\\mutation\\deleterole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{89DF26B0-3210-4D51-9458-874FF5B964D8}|task-dotnet-app.csproj|solutionrelative:features\\role\\mutation\\deleterole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\CreateTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\Mutation\\CreateTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Query\\GetUsersByRoleId.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -185,6 +17,178 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Mutation\\DeleteUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\Mutation\\DeleteUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\UpdateTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\Mutation\\UpdateTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\TaskMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\TaskQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Controllers\\TaskController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\TaskController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\Query\\GetTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTaskById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\Query\\GetTaskById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\UserConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\UserConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\Users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Mutation\\CreateUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\Mutation\\CreateUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\UserQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\UserQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Query\\GetUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\Query\\GetUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\RolesConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\RolesConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\TaskItemConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\TaskItemConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\Roles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Mutation\\CreateRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Role\\Mutation\\CreateRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\RoleMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Role\\RoleMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\RoleQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Role\\RoleQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\ProjectRoleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\ProjectRoleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\CreateProjectRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\Mutation\\CreateProjectRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\ProjectMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\ProjectMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\Projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\Projects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\TaskItems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\TaskItems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\ProjectConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\ProjectConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\UserMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\UserMutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\ProjectQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\ProjectQuery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\ProjectRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\ProjectRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\TaskDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\TaskDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\CreateProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\Mutation\\CreateProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\UserTaskConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\UserTaskConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\UserRoleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Configuration\\UserRoleConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\UserTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\UserTasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\UserRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\Model\\UserRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Query\\GetRoleById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Role\\Query\\GetRoleById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Query\\GetUserById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\Query\\GetUserById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Mutation\\UpdateUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\User\\Mutation\\UpdateUser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Query\\GetRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Role\\Query\\GetRoles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\DeleteTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Task\\Mutation\\DeleteTask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\UpdateProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\Mutation\\UpdateProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\DeleteProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\Mutation\\DeleteProject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Query\\GetProjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\Query\\GetProjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Query\\GetProjectsById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Project\\Query\\GetProjectsById.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Mutation\\DeleteRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Features\\Role\\Mutation\\DeleteRole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -194,19 +198,44 @@
       "DocumentGroups": [
         {
           "DockedHeight": 332,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-06T11:49:57.73Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "UpdateTask.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\UpdateTask.cs",
               "RelativeDocumentMoniker": "Features\\Task\\Mutation\\UpdateTask.cs",
@@ -214,64 +243,23 @@
               "RelativeToolTip": "Features\\Task\\Mutation\\UpdateTask.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAxwCsAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:18:36.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T09:18:36.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "TaskMutation.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskMutation.cs",
               "RelativeDocumentMoniker": "Features\\Task\\TaskMutation.cs",
               "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskMutation.cs",
               "RelativeToolTip": "Features\\Task\\TaskMutation.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAIAwwB8AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAlwB8AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:51:58.062Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T09:51:58.062Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TaskQuery.cs",
-              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskQuery.cs",
-              "RelativeDocumentMoniker": "Features\\Task\\TaskQuery.cs",
-              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskQuery.cs",
-              "RelativeToolTip": "Features\\Task\\TaskQuery.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T10:04:01.544Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetTasks.cs",
-              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTasks.cs",
-              "RelativeDocumentMoniker": "Features\\Task\\Query\\GetTasks.cs",
-              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTasks.cs",
-              "RelativeToolTip": "Features\\Task\\Query\\GetTasks.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAswA0AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:38:15.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TaskController.cs",
-              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Controllers\\TaskController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
-              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Controllers\\TaskController.cs",
-              "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:51:05.906Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -279,12 +267,60 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAIwCoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T06:05:55.379Z",
+              "WhenOpened": "2025-04-11T06:05:55.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CreateTask.cs",
+              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\CreateTask.cs",
+              "RelativeDocumentMoniker": "Features\\Task\\Mutation\\CreateTask.cs",
+              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\CreateTask.cs",
+              "RelativeToolTip": "Features\\Task\\Mutation\\CreateTask.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T08:56:38.419Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
+              "Title": "TaskQuery.cs",
+              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskQuery.cs",
+              "RelativeDocumentMoniker": "Features\\Task\\TaskQuery.cs",
+              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\TaskQuery.cs",
+              "RelativeToolTip": "Features\\Task\\TaskQuery.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T10:04:01.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:51:05.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GetTasks.cs",
+              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTasks.cs",
+              "RelativeDocumentMoniker": "Features\\Task\\Query\\GetTasks.cs",
+              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTasks.cs",
+              "RelativeToolTip": "Features\\Task\\Query\\GetTasks.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAswA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T09:38:15.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "GetTaskById.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Query\\GetTaskById.cs",
               "RelativeDocumentMoniker": "Features\\Task\\Query\\GetTaskById.cs",
@@ -292,20 +328,11 @@
               "RelativeToolTip": "Features\\Task\\Query\\GetTaskById.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:34:17.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+              "WhenOpened": "2025-04-10T09:34:17.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\UserConfiguration.cs",
@@ -313,12 +340,11 @@
               "RelativeToolTip": "Data\\Configuration\\UserConfiguration.cs",
               "ViewState": "AgIAABkAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T10:21:43.985Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T10:21:43.985Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Users.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\Users.cs",
               "RelativeDocumentMoniker": "Data\\Model\\Users.cs",
@@ -326,12 +352,11 @@
               "RelativeToolTip": "Data\\Model\\Users.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA0wBEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T10:02:29.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T10:02:29.458Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "CreateUser.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Mutation\\CreateUser.cs",
               "RelativeDocumentMoniker": "Features\\User\\Mutation\\CreateUser.cs",
@@ -339,12 +364,11 @@
               "RelativeToolTip": "Features\\User\\Mutation\\CreateUser.cs",
               "ViewState": "AgIAAB8AAACA5cvV994rwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:27:42.724Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T05:27:42.724Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "UserQuery.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\UserQuery.cs",
               "RelativeDocumentMoniker": "Features\\User\\UserQuery.cs",
@@ -352,12 +376,11 @@
               "RelativeToolTip": "Features\\User\\UserQuery.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAA1wCEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:28:05.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T05:28:05.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "GetUser.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Query\\GetUser.cs",
               "RelativeDocumentMoniker": "Features\\User\\Query\\GetUser.cs",
@@ -365,12 +388,11 @@
               "RelativeToolTip": "Features\\User\\Query\\GetUser.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T05:35:06.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T05:35:06.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "RolesConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\RolesConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\RolesConfiguration.cs",
@@ -378,12 +400,11 @@
               "RelativeToolTip": "Data\\Configuration\\RolesConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T09:45:07.351Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T09:45:07.351Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "TaskItemConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\TaskItemConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\TaskItemConfiguration.cs",
@@ -391,12 +412,11 @@
               "RelativeToolTip": "Data\\Configuration\\TaskItemConfiguration.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAgwEUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T09:47:33.929Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T09:47:33.929Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "Roles.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\Roles.cs",
               "RelativeDocumentMoniker": "Data\\Model\\Roles.cs",
@@ -404,12 +424,11 @@
               "RelativeToolTip": "Data\\Model\\Roles.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAQwBIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:26:29.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T17:26:29.512Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "CreateRole.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Mutation\\CreateRole.cs",
               "RelativeDocumentMoniker": "Features\\Role\\Mutation\\CreateRole.cs",
@@ -417,12 +436,11 @@
               "RelativeToolTip": "Features\\Role\\Mutation\\CreateRole.cs",
               "ViewState": "AgIAACQAAAAAAAAAAAAAwCkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T08:46:01.207Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T08:46:01.207Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "RoleMutation.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\RoleMutation.cs",
               "RelativeDocumentMoniker": "Features\\Role\\RoleMutation.cs",
@@ -430,12 +448,11 @@
               "RelativeToolTip": "Features\\Role\\RoleMutation.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAACsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T09:54:23.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T09:54:23.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "RoleQuery.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\RoleQuery.cs",
               "RelativeDocumentMoniker": "Features\\Role\\RoleQuery.cs",
@@ -443,12 +460,11 @@
               "RelativeToolTip": "Features\\Role\\RoleQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-11T07:20:32.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-11T07:20:32.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ProjectRoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\ProjectRoleConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\ProjectRoleConfiguration.cs",
@@ -456,12 +472,11 @@
               "RelativeToolTip": "Data\\Configuration\\ProjectRoleConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:17:57.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T05:17:57.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "CreateProjectRole.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\CreateProjectRole.cs",
               "RelativeDocumentMoniker": "Features\\Project\\Mutation\\CreateProjectRole.cs",
@@ -469,12 +484,11 @@
               "RelativeToolTip": "Features\\Project\\Mutation\\CreateProjectRole.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T07:03:35.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:03:35.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 24,
               "Title": "ProjectMutation.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\ProjectMutation.cs",
               "RelativeDocumentMoniker": "Features\\Project\\ProjectMutation.cs",
@@ -482,12 +496,11 @@
               "RelativeToolTip": "Features\\Project\\ProjectMutation.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T08:51:09.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T08:51:09.355Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 25,
               "Title": "Projects.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\Projects.cs",
               "RelativeDocumentMoniker": "Data\\Model\\Projects.cs",
@@ -495,12 +508,11 @@
               "RelativeToolTip": "Data\\Model\\Projects.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA6wBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T12:46:42.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T12:46:42.054Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 26,
               "Title": "TaskItems.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\TaskItems.cs",
               "RelativeDocumentMoniker": "Data\\Model\\TaskItems.cs",
@@ -508,12 +520,11 @@
               "RelativeToolTip": "Data\\Model\\TaskItems.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAA+wDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T09:47:36.628Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T09:47:36.628Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "ProjectConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\ProjectConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\ProjectConfiguration.cs",
@@ -521,25 +532,11 @@
               "RelativeToolTip": "Data\\Configuration\\ProjectConfiguration.cs",
               "ViewState": "AgIAACUAAAAAAAAAAAAYwC4AAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T09:45:30.295Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T09:45:30.295Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "CreateTask.cs",
-              "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\CreateTask.cs",
-              "RelativeDocumentMoniker": "Features\\Task\\Mutation\\CreateTask.cs",
-              "ToolTip": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\CreateTask.cs",
-              "RelativeToolTip": "Features\\Task\\Mutation\\CreateTask.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDUAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T08:56:38.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "UserMutation.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\UserMutation.cs",
               "RelativeDocumentMoniker": "Features\\User\\UserMutation.cs",
@@ -547,12 +544,11 @@
               "RelativeToolTip": "Features\\User\\UserMutation.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T17:29:23.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T17:29:23.052Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "ProjectQuery.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\ProjectQuery.cs",
               "RelativeDocumentMoniker": "Features\\Project\\ProjectQuery.cs",
@@ -560,12 +556,11 @@
               "RelativeToolTip": "Features\\Project\\ProjectQuery.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T08:53:00.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T08:53:00.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "ProjectRole.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\ProjectRole.cs",
               "RelativeDocumentMoniker": "Data\\Model\\ProjectRole.cs",
@@ -573,12 +568,11 @@
               "RelativeToolTip": "Data\\Model\\ProjectRole.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAADwvxAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T05:16:47.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T05:16:47.305Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "TaskDbContext.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\TaskDbContext.cs",
               "RelativeDocumentMoniker": "Data\\TaskDbContext.cs",
@@ -586,12 +580,11 @@
               "RelativeToolTip": "Data\\TaskDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T05:03:50.586Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:03:50.586Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "CreateProject.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\CreateProject.cs",
               "RelativeDocumentMoniker": "Features\\Project\\Mutation\\CreateProject.cs",
@@ -599,12 +592,11 @@
               "RelativeToolTip": "Features\\Project\\Mutation\\CreateProject.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAowCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T05:51:53.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:51:53.95Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "UserTaskConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\UserTaskConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\UserTaskConfiguration.cs",
@@ -612,12 +604,11 @@
               "RelativeToolTip": "Data\\Configuration\\UserTaskConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T05:37:19.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:37:19.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "UserRoleConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Configuration\\UserRoleConfiguration.cs",
               "RelativeDocumentMoniker": "Data\\Configuration\\UserRoleConfiguration.cs",
@@ -625,12 +616,11 @@
               "RelativeToolTip": "Data\\Configuration\\UserRoleConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T05:36:56.775Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-10T05:36:56.775Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "UserTasks.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\UserTasks.cs",
               "RelativeDocumentMoniker": "Data\\Model\\UserTasks.cs",
@@ -638,12 +628,11 @@
               "RelativeToolTip": "Data\\Model\\UserTasks.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T11:32:50.796Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T11:32:50.796Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "UserRoles.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Data\\Model\\UserRoles.cs",
               "RelativeDocumentMoniker": "Data\\Model\\UserRoles.cs",
@@ -651,12 +640,11 @@
               "RelativeToolTip": "Data\\Model\\UserRoles.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-09T13:03:04.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-09T13:03:04.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "GetRoleById.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Query\\GetRoleById.cs",
               "RelativeDocumentMoniker": "Features\\Role\\Query\\GetRoleById.cs",
@@ -668,7 +656,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 2,
               "Title": "GetUsersByRoleId.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Query\\GetUsersByRoleId.cs",
               "RelativeDocumentMoniker": "Features\\User\\Query\\GetUsersByRoleId.cs",
@@ -680,7 +668,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "GetUserById.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Query\\GetUserById.cs",
               "RelativeDocumentMoniker": "Features\\User\\Query\\GetUserById.cs",
@@ -692,7 +680,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "UpdateUser.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Mutation\\UpdateUser.cs",
               "RelativeDocumentMoniker": "Features\\User\\Mutation\\UpdateUser.cs",
@@ -704,7 +692,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 3,
               "Title": "DeleteUser.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\User\\Mutation\\DeleteUser.cs",
               "RelativeDocumentMoniker": "Features\\User\\Mutation\\DeleteUser.cs",
@@ -716,7 +704,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "GetRoles.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Query\\GetRoles.cs",
               "RelativeDocumentMoniker": "Features\\Role\\Query\\GetRoles.cs",
@@ -728,7 +716,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "DeleteTask.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Task\\Mutation\\DeleteTask.cs",
               "RelativeDocumentMoniker": "Features\\Task\\Mutation\\DeleteTask.cs",
@@ -740,7 +728,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "UpdateProject.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\UpdateProject.cs",
               "RelativeDocumentMoniker": "Features\\Project\\Mutation\\UpdateProject.cs",
@@ -752,7 +740,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "DeleteProject.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Mutation\\DeleteProject.cs",
               "RelativeDocumentMoniker": "Features\\Project\\Mutation\\DeleteProject.cs",
@@ -764,7 +752,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "GetProjects.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Query\\GetProjects.cs",
               "RelativeDocumentMoniker": "Features\\Project\\Query\\GetProjects.cs",
@@ -776,7 +764,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "GetProjectsById.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Project\\Query\\GetProjectsById.cs",
               "RelativeDocumentMoniker": "Features\\Project\\Query\\GetProjectsById.cs",
@@ -788,7 +776,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "DeleteRole.cs",
               "DocumentMoniker": "C:\\Users\\dharani.govindhasamy\\sample_task\\task-management\\task-dotnet-app\\task-dotnet-app\\Features\\Role\\Mutation\\DeleteRole.cs",
               "RelativeDocumentMoniker": "Features\\Role\\Mutation\\DeleteRole.cs",
@@ -797,6 +785,14 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T08:48:37.603Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
@@ -807,10 +803,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

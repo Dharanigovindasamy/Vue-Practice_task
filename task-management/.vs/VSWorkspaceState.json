@@ -1,0 +1,14 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\task-dotnet-app",
+    "\\task-dotnet-app\\task-dotnet-app",
+    "\\task-dotnet-app\\task-dotnet-app -backup",
+    "\\task-dotnet-app\\task-dotnet-app -backup\\Controllers",
+    "\\task-dotnet-app\\task-dotnet-app -backup\\Properties",
+    "\\task-dotnet-app\\task-dotnet-app\\Controllers",
+    "\\task-dotnet-app\\task-dotnet-app\\Features"
+  ],
+  "SelectedNode": "\\task-dotnet-app\\task-dotnet-app\\Controllers\\TaskController.cs",
+  "PreviewInSolutionExplorer": false
+}
